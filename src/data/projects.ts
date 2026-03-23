@@ -13,35 +13,23 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Project One",
+    title: "Rock Mountain Performance",
     description:
-      "A brief description of what this project does and the problem it solves. Keep it to 2-3 sentences.",
-    image: "/projects/project1.png", // add your screenshot to public/projects/
-    tags: ["React", "Node.js", "PostgreSQL"],
-    liveUrl: "https://your-project.vercel.app",
-    githubUrl: "https://github.com/yourusername/project-one",
+      "A full-featured ecommerce storefront for a performance parts brand. Built with Next.js 16 and React 19, featuring product browsing, cart management, and Stripe-powered checkout.",
+    image: "/projects/rock-mountain-performance.png",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Stripe", "Framer Motion"],
+    githubUrl: "https://github.com/ericmontalvo12/rock-v1",
     featured: true,
   },
   {
     id: 2,
-    title: "Project Two",
+    title: "Invntrymngmnt",
     description:
-      "A brief description of what this project does and the problem it solves. Keep it to 2-3 sentences.",
-    image: "/projects/project2.png",
-    tags: ["Next.js", "TypeScript", "Tailwind"],
-    liveUrl: "https://your-project.vercel.app",
-    githubUrl: "https://github.com/yourusername/project-two",
+      "An inventory management MVP that helps small businesses track stock levels, manage products, and monitor supply in real time. Built with Next.js and backed by Supabase.",
+    image: "/projects/invntrymngmnt.png",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "Supabase"],
+    githubUrl: "https://github.com/ericmontalvo12/Invntrymngmnt",
     featured: true,
-  },
-  {
-    id: 3,
-    title: "Project Three",
-    description:
-      "A brief description of what this project does and the problem it solves. Keep it to 2-3 sentences.",
-    image: "/projects/project3.png",
-    tags: ["Python", "FastAPI", "React"],
-    liveUrl: "https://your-project.vercel.app",
-    githubUrl: "https://github.com/yourusername/project-three",
   },
 ];
 
