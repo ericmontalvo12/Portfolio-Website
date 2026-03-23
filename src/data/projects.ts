@@ -15,7 +15,7 @@ export const projects: Project[] = [
     id: 1,
     title: "Rock Mountain Performance",
     description:
-      "A full-featured ecommerce storefront for a performance parts brand. Built with Next.js 16 and React 19, featuring product browsing, cart management, and Stripe-powered checkout.",
+      "A full-featured ecommerce storefront for a supplement brand. Built with Next.js 16 and React 19, featuring product browsing, cart management, and Stripe-powered checkout.",
     image: "/projects/rock-mountain-performance.png",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Stripe", "Framer Motion"],
     liveUrl: "https://rockmountainperformance.com/",
