@@ -19,7 +19,6 @@ export const projects: Project[] = [
     image: "/projects/rock-mountain-performance.jpeg",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Stripe", "Framer Motion"],
     liveUrl: "https://rockmountainperformance.com/",
-    githubUrl: "https://github.com/ericmontalvo12/rock-v1",
     featured: true,
   },
   {
@@ -30,7 +29,6 @@ export const projects: Project[] = [
     image: "/projects/invntrymngmnt.jpeg",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "Supabase"],
     liveUrl: "https://inventory-management-orcin-ten.vercel.app/dashboard",
-    githubUrl: "https://github.com/ericmontalvo12/Invntrymngmnt",
     featured: true,
   },
 ];
