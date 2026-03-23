@@ -16,7 +16,7 @@ export const projects: Project[] = [
     title: "Rock Mountain Performance",
     description:
       "A full-featured ecommerce storefront for a supplement brand. Built with Next.js 16 and React 19, featuring product browsing, cart management, and Stripe-powered checkout.",
-    image: "/projects/rock-mountain-performance.png",
+    image: "/projects/rock-mountain-performance.jpeg",
     tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Stripe", "Framer Motion"],
     liveUrl: "https://rockmountainperformance.com/",
     githubUrl: "https://github.com/ericmontalvo12/rock-v1",
@@ -27,7 +27,7 @@ export const projects: Project[] = [
     title: "Invntrymngmnt",
     description:
       "An inventory management MVP that helps small businesses track stock levels, manage products, and monitor supply in real time. Built with Next.js and backed by Supabase.",
-    image: "/projects/invntrymngmnt.png",
+    image: "/projects/invntrymngmnt.jpeg",
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "Supabase"],
     liveUrl: "https://inventory-management-orcin-ten.vercel.app/dashboard",
     githubUrl: "https://github.com/ericmontalvo12/Invntrymngmnt",
