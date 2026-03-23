@@ -47,14 +47,14 @@ export const projects: Project[] = [
 
 // ─── YOUR PERSONAL INFO ───────────────────────────────────────────────────────
 export const personalInfo = {
-  name: "Your Name",
+  name: "Eric Montalvo",
   title: "Full Stack Developer",
   tagline: "I build clean, fast, and accessible web experiences.",
   bio: "I'm a passionate web developer with experience building modern web applications. I love turning complex problems into elegant solutions and writing code that others enjoy working with.",
-  email: "your@email.com",
-  github: "https://github.com/yourusername",
+  email: "montalvoventuresllc@gmail.com",
+  github: "https://github.com/ericmontalvo12",
   linkedin: "https://linkedin.com/in/yourprofile",
-  twitter: "https://twitter.com/yourhandle", // optional, set to "" to hide
+  twitter: "", // set to your Twitter/X handle URL or leave empty to hide
   resumeUrl: "/resume.pdf", // add your resume PDF to /public/
 };
 
