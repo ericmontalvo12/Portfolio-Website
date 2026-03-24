@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { personalInfo } from "@/data/projects";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Twitter, Mail } from "lucide-react";
 
 export default function Contact() {
   const ref = useRef<HTMLElement>(null);
@@ -23,8 +23,6 @@ export default function Contact() {
   }, []);
 
   const socials = [
-    { icon: Github, label: "GitHub", href: personalInfo.github },
-    { icon: Linkedin, label: "LinkedIn", href: personalInfo.linkedin },
     ...(personalInfo.twitter
       ? [{ icon: Twitter, label: "Twitter", href: personalInfo.twitter }]
       : []),

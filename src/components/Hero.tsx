@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { personalInfo } from "@/data/projects";
-import { Github, Linkedin, Twitter, ArrowDown } from "lucide-react";
+import { Twitter, ArrowDown } from "lucide-react";
 
 export default function Hero() {
   const [visible, setVisible] = useState(false);
@@ -56,24 +56,6 @@ export default function Hero() {
 
           {/* Social links */}
           <div className="flex items-center gap-5">
-            <a
-              href={personalInfo.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-500 hover:text-gray-900 transition-colors"
-              aria-label="GitHub"
-            >
-              <Github size={22} />
-            </a>
-            <a
-              href={personalInfo.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-500 hover:text-blue-700 transition-colors"
-              aria-label="LinkedIn"
-            >
-              <Linkedin size={22} />
-            </a>
             {personalInfo.twitter && (
               <a
                 href={personalInfo.twitter}
