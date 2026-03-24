@@ -40,9 +40,9 @@ export const personalInfo = {
   tagline: "I build clean, fast, and accessible web experiences.",
   bio: "I'm a passionate web developer with experience building modern web applications. I love turning complex problems into elegant solutions and writing code that others enjoy working with.",
   email: "montalvoventuresllc@gmail.com",
-  github: "https://github.com/ericmontalvo12",
-  linkedin: "https://linkedin.com/in/yourprofile",
-  twitter: "", // set to your Twitter/X handle URL or leave empty to hide
+  github: "",
+  linkedin: "",
+  twitter: "",
   resumeUrl: "/resume.pdf", // add your resume PDF to /public/
 };
 
