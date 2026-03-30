@@ -46,14 +46,8 @@ export default function About() {
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Bio */}
             <div>
-              <p className="text-gray-600 text-lg leading-relaxed mb-6">
+              <p className="text-gray-600 text-lg leading-relaxed">
                 {personalInfo.bio}
-              </p>
-              <p className="text-gray-600 leading-relaxed">
-                When I&apos;m not coding, you can find me exploring new
-                technologies, contributing to open source, or leveling up my
-                skills. I&apos;m always open to interesting conversations and
-                new opportunities.
               </p>
             </div>
 

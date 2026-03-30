@@ -42,9 +42,8 @@ export default function Contact() {
 
           <div className="max-w-2xl">
             <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              I&apos;m currently open to new opportunities. Whether you have a
-              question, a project idea, or just want to say hi — my inbox is
-              always open!
+              Have a project in mind or looking to bring on a developer? Let&apos;s
+              talk about what you&apos;re building.
             </p>
 
             {/* Email CTA */}
@@ -53,7 +52,7 @@ export default function Contact() {
               className="inline-flex items-center gap-3 px-8 py-4 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors shadow-md hover:shadow-lg mb-12 group"
             >
               <Mail size={20} />
-              Say Hello
+              Start a Conversation
             </a>
 
             {/* Socials */}

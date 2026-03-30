@@ -30,12 +30,12 @@ export default function Projects() {
         >
           {/* Section header */}
           <div className="flex items-center gap-4 mb-4">
-            <h2 className="text-3xl font-bold text-gray-900">Projects</h2>
+            <h2 className="text-3xl font-bold text-gray-900">Featured Work</h2>
             <div className="flex-1 h-px bg-gray-200 max-w-xs" />
           </div>
           <p className="text-gray-500 mb-12 max-w-xl">
-            A selection of projects I&apos;ve built. Each one taught me
-            something new.
+            Real projects built for real businesses — focused on performance,
+            usability, and shipping production-ready software.
           </p>
 
           {/* Grid */}

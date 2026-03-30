@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { personalInfo } from "@/data/projects";
-import { Twitter, ArrowDown } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 
 export default function Hero() {
   const [visible, setVisible] = useState(false);
@@ -18,11 +18,6 @@ export default function Hero() {
         <div
           className={`transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}
         >
-          {/* Greeting */}
-          <p className="text-blue-600 font-mono text-sm font-medium mb-4 tracking-wide">
-            Hi, my name is
-          </p>
-
           {/* Name */}
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 leading-tight mb-4">
             {personalInfo.name}
@@ -54,20 +49,6 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Social links */}
-          <div className="flex items-center gap-5">
-            {personalInfo.twitter && (
-              <a
-                href={personalInfo.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-500 hover:text-sky-500 transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter size={22} />
-              </a>
-            )}
-          </div>
         </div>
       </div>
 
